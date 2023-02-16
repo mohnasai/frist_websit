@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+ */ font-family: 'Slabo 27px',
+ serif;
+ * {
+     padding: 0;
+ }
+ 
+ .body {
+     background-color: #9addd4;
+     padding: 250px;
+ }
+ 
+ hr {}
+ /************************* Top *******************************/
+ 
+ .top {
+     text-align: center;
+ }
+ 
+ .top-cloud {
+     text-align: center;
+     position: absolute;
+     top: 20px;
+ }
+ 
+ .bottom-cloud {}
+ 
+ .top h1 {
+     color: black;
+     font-family: 'Slabo 27px', serif;
+     font-family: 'Teko', sans-serif;
+ }
+ 
+ col. {
+     color: black;
+     font-family: 'Slabo 27px', serif;
+     font-family: 'Teko', sans-serif;
+ }
+ 
+ .top h2 {}
+ /************************* Middle *******************************/
+ 
+ .middle {
+     text-align: center;
+ }
+ 
+ .hi {
+     font-family: italic;
+     font-size: 58px;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ .btn {
+     background: #11ddd4;
+     background-image: -webkit-linear-gradient(top, #11ddd4, #11999e);
+     background-image: -moz-linear-gradient(top, #11ddd4, #11999e);
+     background-image: -ms-linear-gradient(top, #11ddd4, #11999e);
+     background-image: -o-linear-gradient(top, #11ddd4, #11999e);
+     background-image: linear-gradient(to bottom, #11ddd4, #11999e);
+     -webkit-border-radius: 8;
+     -moz-border-radius: 8;
+     border-radius: 8px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+     cursor: pointer;
+     border: none;
+ }
+ 
+ .btn:hover {
+     background: #30e3cb;
+     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+     text-decoration: none;
+ }
+ /************************* Bottom *******************************/
+ 
+ .bottom {
+     background-color: #66bfbf;
+     padding: 50px 0 20px;
+     margin-top: 80px;
+ }
+ 
+ a {
+     color: #11999e;
+     margin: 10px 20px;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: #eaf6f6;
+ }
+ 
+ .copyright {
+     color: #eaf6f6;
+     font-size: 0.75rem;
+ }
